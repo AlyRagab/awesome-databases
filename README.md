@@ -7,4 +7,5 @@ Databases for DevOps Engineers
 #### 2- Learning how to `write` and `run` Queries.
 #### 3- Cluster Management.
 #### 4- Logging/Auditing and Monitoring.
-#### 5- Quizes.
+#### 5- Performance Tuning.
+#### 6- Quizes.
