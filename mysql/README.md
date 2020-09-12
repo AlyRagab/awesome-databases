@@ -17,6 +17,7 @@
   - Lab.
   - Master and Master Cluster Concept.
   - Lab.
+  - Database Backup and Restore ( Large Data )
   - Quiz.
 ### 4- Logging and Monitoring :
   - Logs types ( Access , Transaction , Slow Queries ).
