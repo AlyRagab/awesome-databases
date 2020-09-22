@@ -1,12 +1,16 @@
-#### We will setup MySQL using Docker 
+#### We will setup MySQL using Docker
+
 ```
 docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=Password -p 0.0.0.0:3306:3306 -d mysql:latest
 ```
+
 #### Create a Database
+
 ```
 mysql -u root -p
 CREATE DATABASE my_db
 ```
+
 #### Database permissions 
 ```
 CREATE USER 'aly'@'localhost' IDENTIFIED BY 'password123';
@@ -36,4 +40,7 @@ SHOW GRANTS FOR 'aly'@'localhost';
 REVOKE UPDATE, SELECT ON my_db.* FROM 'aly'@'localhost';
 REVOKE ALL PRIVILEGES ON my_db.* FROM 'aly'@'localhost';
 ```
-
+#### To Remove the user 
+```
+DROP USER 'aly'@'localhost'
+```
