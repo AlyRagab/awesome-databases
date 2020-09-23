@@ -1,8 +1,8 @@
 ## MySQL Course Contents:
  ### 1- Basic Administration :
   - Setup , Creating a Database and Users , how to deal with Permissions ?.
-  - MyIAM vs InnoDB
   - MySQL Structure and Architecture.
+  - MyIAM vs InnoDB
   - DDL vs DML + Simple Queries.
   - Quiz.
  ### 2- Database Design and SQL Language :
