@@ -25,4 +25,5 @@ select * from clients;
 select first_name, last_name from clients;
 select first_name, last_name from clients where id=3;
 select first_name, last_name from clients where id between 1 and 4;
+select first_name, last_name from clients where id > 4;
 ```
