@@ -57,12 +57,18 @@ values (001, 4, 1),
 ```
 
 - Running some select queries :
-  - Getting the Client_Name and their Products_Name :
-  
+  - Getting the Client_Name , their Products_Name , Order_Number and Order_Date 
+  Using Inner Join:
 ```
 select concat(first_name, ' ', last_name) AS 'Client_Name', products.product_name AS 'Product Name', orders.order_number AS 'Order Number', orders.order_date AS 'Order Date'
 from orders
 inner join products on orders.id = products.id
 inner join clients on orders.id = clients.id;
+```
+  - Using the Self Join :
+```
+select concat(first_name, ' ', last_name) AS 'Client_Name', products.product_name AS 'Product Name', orders.order_number AS 'Order Number', orders.order_date AS 'Order Date'
+from orders , products , clients
+where orders.id = products.id and orders.id = clients.id;
 ```
 
