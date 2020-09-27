@@ -35,3 +35,24 @@ create table orders(
 );
 
 ```
+- Inserting Data into Tables :
+```
+insert into clients(first_name, last_name, email, city) 
+values ('Aly', 'Ragab', 'aly@example.com', 'london'),
+       ('Mohamed', 'Aly', 'mohamed@example.com', 'berlin'),
+	   ('John', 'Smith', 'johm@abc.com', 'paris'),
+       ('Sam' , 'Adam', 'sam@company.com', 'amesterdam');
+
+insert into products(product_name, product_price)
+values ('IMac' , 3000),
+       ('MacBook Pro', 2500),
+       ('Apple Watch', 1000),
+       ('NoteBook' , 1500);
+       
+insert into orders(order_number, product_id, client_id)
+values (001, 4, 1),
+       (002, 2, 4),
+       (003, 1, 3),
+       (004, 3, 2);
+```
+
