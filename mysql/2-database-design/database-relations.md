@@ -40,7 +40,7 @@ create table orders(
 insert into clients(first_name, last_name, email, city) 
 values ('Aly', 'Ragab', 'aly@example.com', 'london'),
        ('Mohamed', 'Aly', 'mohamed@example.com', 'berlin'),
-	   ('John', 'Smith', 'johm@abc.com', 'paris'),
+       ('John', 'Smith', 'johm@abc.com', 'paris'),
        ('Sam' , 'Adam', 'sam@company.com', 'amesterdam');
 
 insert into products(product_name, product_price)
