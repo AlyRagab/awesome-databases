@@ -1,3 +1,6 @@
+#### MySQL Data Types - The most common used Data Types :
+- [Official Reference](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
+
 #### Before we dive into Database Design , Let's do some simple queries :
 
 - First , Create the Database called 'store' and table called clients then add some data into it:
