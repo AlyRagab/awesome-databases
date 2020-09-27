@@ -1,6 +1,6 @@
 #### Database Design in details :
 - Database Diagram :
--  <img src="https://github.com/AlyRagab/databases-for-devops/blob/master/mysql/images/online-store.png" />
+ <img src="https://github.com/AlyRagab/databases-for-devops/blob/master/mysql/images/online-store.png" />
 - So According to this diagram , Let's design our online store database as below :
 ```
 create database store;
