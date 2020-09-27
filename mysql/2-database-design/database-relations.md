@@ -28,7 +28,7 @@ create table orders(
    order_number int,
    product_id int,
    client_id int,
-   client_date datetime default current_timestamp,
+   order_date datetime default current_timestamp,
    primary key(id),
    foreign key(product_id) references products(id),
    foreign key(client_id) references clients(id)
@@ -54,5 +54,15 @@ values (001, 4, 1),
        (002, 2, 4),
        (003, 1, 3),
        (004, 3, 2);
+```
+
+- Running some select queries :
+  - Getting the Client_Name and their Products_Name :
+  
+```
+select concat(first_name, ' ', last_name) AS 'Client_Name', products.product_name AS 'Product Name', orders.order_number AS 'Order Number', orders.order_date AS 'Order Date'
+from orders
+inner join products on orders.id = products.id
+inner join clients on orders.id = clients.id;
 ```
 
