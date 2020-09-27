@@ -1,4 +1,7 @@
 #### Database Design in details :
+#### Relations Types :
+ - One to One :
+   - 
 - Database Diagram :
 <img src="https://github.com/AlyRagab/databases-for-devops/blob/master/mysql/images/online-store.png" />
 

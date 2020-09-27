@@ -21,6 +21,7 @@ insert into customers(first_name, last_name, email) values('omar', 'aly', 'omar@
 insert into customers(first_name, last_name, email) values('mahmoud', 'ragab', 'mahmoud@gmail.com');
 insert into customers(first_name, last_name, email) values('mohamed', 'ragab', 'mragab@gmail.com');
 insert into customers(first_name, last_name, email) values('ahmed', 'hassan', 'ahmed@gmail.com');
+
 ```
 - Let's run simple queries using DDL :
 ```
