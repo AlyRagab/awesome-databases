@@ -3,8 +3,8 @@ Databases for DevOps Engineers
 
 ### The Course is consisted of 4 Pillars : 
 `MySQL` , `PostgreSQL` , `MongoDB` and `CassanrdaDB` All should have the following elements :
-#### 1- Basic Administration `Setup` , `creating/updating users and permissions` ..etc.
-#### 2- Learning how to `write` and `run` Queries.
+#### 1- Basic Administration.
+#### 2- Database Design.
 #### 3- Cluster Management.
 #### 4- Logging/Auditing and Monitoring.
 #### 5- Security
