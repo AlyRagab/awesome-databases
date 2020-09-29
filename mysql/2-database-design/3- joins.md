@@ -61,3 +61,4 @@
       If we use `UNION ALL` we will get duplicate data as well.
 
 
+- [Good Ref](https://stackoverflow.com/questions/4796872/how-to-do-a-full-outer-join-in-mysql)
