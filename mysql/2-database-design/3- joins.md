@@ -57,4 +57,7 @@
     from clients
     right join products on clients.client_id = products.product_id;
     ```
+    - We get the full data in both tables and then we use `UNION` to get it together in one table
+      If we use `UION ALL` we will get duplicate data as well.
+      
 
