@@ -47,5 +47,14 @@
     - A combination of both Right & Left join together , So "Null" is expected in both columns.
     - Example :
     ```
+    select concat(clients.first_name, ' ', clients.last_name) AS "Client Full Name", products.product_name AS "Product Name"
+    from clients
+    left join products on clients.client_id = products.product_id
 
+    union 
+
+    select concat(clients.first_name, ' ', clients.last_name) AS "Client Full Name", products.product_name AS "Product Name"
+    from clients
+    right join products on clients.client_id = products.product_id;
+    ```
 
