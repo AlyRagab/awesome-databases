@@ -9,4 +9,4 @@ Databases for DevOps Engineers
 #### 4- Logging/Auditing and Monitoring.
 #### 5- Security
 #### 6- Performance Tuning.
-#### 7- Quizes.
+#### 7- Interview Questions and Answers.
