@@ -10,7 +10,7 @@
   - SQL Deep Dive Part-2.
   - Database Diagram.
   - Quiz.
-### 3- Cluster Management :
+### 3- Cluster Management and Scaling :
   - Replication Types and Concept.
   - Lab.
   - Master and Master Cluster Concept.
@@ -34,3 +34,5 @@
   - Part -2 ( Choosing the right DB cluster size )
   - Part -3 ( Optimize SQL queries )
   - Part -3 ( Configurations Options )
+### 7- Interview Questions and Answers :
+  - A PDF contains all Most common Questions and Answers.
