@@ -38,7 +38,7 @@ select concat(first_name, ' ', last_name) AS "Full Name" from clients order by l
 select first_name from clients limit 3; ## Limiting only to 3 results "The first 3 rows only"
 ```
 
- - Using Alter :
+ - Using `Alter` :
 
 ```
 alter table clients add city VARVHAR(50); ## Adding aditional column
@@ -46,11 +46,11 @@ alter table clients remove city; ## Removing a column
 alter table clients modify city varchar(100) ## Modifying the data type of a column
 ```
 
- - Using Update :
+ - Using `Update` :
 ```
 update clients set city = 'London' where id=4;
 ```
- - Using Delete :
+ - Using `Delete` :
 ```
 delete from clients where id =5;
 ```
