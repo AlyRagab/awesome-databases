@@ -15,7 +15,8 @@
     inner join products on orders.id = products.id
     inner join clients on orders.id = clients.id;
     ```
-    - Very useful when we need to have all matched data between two tables.
+    - Very useful when we need to have all matched data between two tables without `NULL`
+      values.
   
   - Left Join:
     - It will list ALL data in the left table first , then match it with the right table.
@@ -28,7 +29,7 @@
     left join products on orders.id = products.id
     left join clients on orders.id = clients.id;
     ```
-    - Very useful once we need to get a clients who have no orders.
+    - Very useful once we need to get the clients who have no orders.
 
   - Right Join:
     - The exact opposite of the left join.

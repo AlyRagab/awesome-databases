@@ -2,7 +2,7 @@
 - [Official Reference](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
 #### Before we dive into Database Design , Let's do some simple queries :
-
+- CRUD Operations "Create , Read , Update and Delete"
 - First , Create the Database called 'store' and table called clients then add some data into it:
 ```
 CREATE DATABASE store;
