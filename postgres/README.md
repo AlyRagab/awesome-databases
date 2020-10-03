@@ -1,7 +1,7 @@
 ## PostgreSQL Course Contents:
  ### 1- Basic Administration :
   - Setup , Creating a Database and Users , how to deal with Permissions ?.
-  - MySQL Server Architecture.
+  - Postgres Server Architecture.
   - CLI Options.
 ### 2- Cluster Management and Scaling :
   - Replication Types and Concept.
@@ -18,9 +18,9 @@
   - Quiz.
 ### 4- Security :
   - Database Access Management, DAM.
-  - Allow Google MFA for Mysql Login CLI. 
+  - Allow Google MFA for CLI Login. 
   - Encrypting Secret Data ( Rest and Transit ).
-  - MySQL Hardening Options.
+  - Hardening Options.
   - Quiz
 ### 5- Performance Tuning :
   - Part -1 ( Choosing the right DB Engine )
