@@ -39,3 +39,6 @@
   - Part -2 ( Choosing the right Database Engine )
   - Part -3 ( Choosing the right DB cluster size )
   - Part -4 ( Configurations Options )
+
+### 7- Interview Questions and Answers :
+  - A PDF contains all Most common Questions and Answers.
