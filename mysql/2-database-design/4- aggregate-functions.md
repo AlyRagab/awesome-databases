@@ -16,3 +16,11 @@ select name AS "Client Name", product_name AS "Product Name", count(*) AS "Produ
 from clients, products
 group by clients.name, products.product_name;
 ```
+ 
+ - Aggregates a data from two tables :
+ ```
+select first_name, product_name, count(*)
+from clients
+join orders on clients.id = orders.client_id
+group by first_name, product_name;
+ ``` 
