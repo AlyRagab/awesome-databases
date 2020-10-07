@@ -9,18 +9,20 @@ select count(*) from clients where first_name like '%A'; ## counts whatever name
 ```
 
  - `GROUP BY` function :
-   - Aggregates a data into a single rows.
+   - This will prnit how many products per client
 ```
-## This will prnit how many product per client :
-select name AS "Client Name", product_name AS "Product Name", count(*) AS "Product Count" 
-from clients, products
-group by clients.name, products.product_name;
+select first_name, product_name, count(*) as "Product Count"
+from orders
+join products on orders.product_id = products.id
+join clients on orders.client_id = clients.id
+group by first_name, product_name
+order by first_name;
 ```
- 
- - Aggregates a data from two tables :
- ```
-select first_name, product_name, count(*)
-from clients
-join orders on clients.id = orders.client_id
-group by first_name, product_name;
- ``` 
+  - Getting how many times the product is sold 
+```
+select product_name AS "Product Name", count(*) AS "Product Count"
+from orders
+join products on orders.product_id = products.id
+group by products.product_name;
+```
+
