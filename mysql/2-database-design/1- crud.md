@@ -33,6 +33,7 @@ select first_name, last_name from clients where id=3;
 select first_name, last_name from clients where id between 1 and 4;
 select first_name, last_name from clients where id > 4;
 select * from clients where first_name like 'A%'; ## Getting all first_name starting with 'A'
+select * from clients where first_name not like 'A%'; ## The Opposite of like
 select * from clients where first_name like '____'; ## It is 4x"_" which means select all contains 4 letters or digits.
 select distinct first_name from clients; ## This will remove any duplication.
 select concat(first_name ,' ', last_name) AS 'Name' from clients; ## Grouping two rows into one column
