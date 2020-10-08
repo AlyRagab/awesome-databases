@@ -1,1 +1,2 @@
-[https://www.universalclass.com/articles/computers/database-design-in-mysql.htm](Database Design)
+(Database Design)[https://www.universalclass.com/articles/computers/database-design-in-mysql.htm]
+(Database Indexing)[https://severalnines.com/database-blog/guide-mysql-indexes]
