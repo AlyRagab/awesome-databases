@@ -1,5 +1,19 @@
 #### MySQL Data Types :
 - [Official Reference](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
+- `CHAR` vs `VARCHAR` ?
+  - Both are Used for storing text or string , but `Char` has a fixed length while 
+  `VARCHAR` is vary.
+  - `CHAR(20)` means only 20 characters allowed.
+  - `CHAR` used when we need to store something like "country code , flags like Y/N ...etc"
+  otherwise we use `VARCHAR`.
+- `DECIMAL` :
+  - we use it for storing numbers like "19.2" as `DECIMAL(3.1)` or 111.33 `DECIMAL(5.2)`
+  so if `DECIMAL(5.2)` means that the total digits are `5` and decimal is `2`.
+- `DATE` and `DATETIME` :
+  - `DATE` for storing dates without time like this format `YYYY-MM-DD`.
+  - `DATETIME` for storing date with times like this format `YYYY-MM-DD HH:MM:SS`,
+   we use `default CURRENT_TIMESTAMP` for more flixbility.
+  - `TIME` for storing time without date like this format `HH:MM:SS`.
 
 #### Before we dive into Database Design , Let's do some simple queries :
 - CRUD Operations "Create , Read , Update and Delete"
