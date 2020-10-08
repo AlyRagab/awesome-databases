@@ -1,2 +1,3 @@
 - [Database Design](https://www.universalclass.com/articles/computers/database-design-in-mysql.htm)
 - [Database Indexing](https://severalnines.com/database-blog/guide-mysql-indexes)
+- [MySQl High Availability](https://severalnines.com/database-blog/overview-mysql-database-high-availability)
