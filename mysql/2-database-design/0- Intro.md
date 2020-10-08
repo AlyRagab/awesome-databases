@@ -1,0 +1,1 @@
+[https://www.universalclass.com/articles/computers/database-design-in-mysql.htm](Database Design)
