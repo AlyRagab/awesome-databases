@@ -7,14 +7,18 @@
   - `CHAR` used when we need to store something like "country code , flags like Y/N ...etc"
   otherwise we use `VARCHAR`.
 - `DECIMAL` :
-  - we use it for storing numbers like "19.2" as `DECIMAL(3.1)` or 111.33 `DECIMAL(5.2)`
+  - It is Fixed-point date type , We use it for storing numbers like "19.2" as `DECIMAL(3.1)` or 111.33 `DECIMAL(5.2)`
   so if `DECIMAL(5.2)` means that the total digits are `5` and decimal is `2`.
 - `DATE` and `DATETIME` :
   - `DATE` for storing dates without time like this format `YYYY-MM-DD`.
   - `DATETIME` for storing date with times like this format `YYYY-MM-DD HH:MM:SS`,
    we use `default CURRENT_TIMESTAMP` for more flixbility.
   - `TIME` for storing time without date like this format `HH:MM:SS`.
-
+- `DOUBLE` and `FLOAT` :
+  - The tow are floating point types , not fixed , For storing large numbers with less space.
+  - If we know the size of the number then we use `DECIMAL` if not then we can use `DOUBLE` or `FLOAT`.
+  - `FLOAT` is up to only 7 Digits , while `DOUBLE` is up to 15 Digits.
+  
 #### Before we dive into Database Design , Let's do some simple queries :
 - CRUD Operations "Create , Read , Update and Delete"
 - First , Create the Database called 'store' and table called clients then add some data into it:
