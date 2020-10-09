@@ -1,9 +1,11 @@
 ## MySQL Course Contents:
  ### 1- Basic Administration :
+  - Introduction.
   - Setup , Creating a Database and Users , how to deal with Permissions ?.
   - MySQL Server Architecture.
   - DDL vs DML.
  ### 2- Database Design and SQL Language :
+  - Thery Concept.
   - Primary and Foreign Keys and Relations.
   - Understanding Database Normalization.
   - SQL Deep Dive Part-1.
@@ -11,11 +13,13 @@
   - Database Diagram.
   - Quiz.
 ### 3- Cluster Management and Scaling :
+  - Introduction.
   - Replication Types and Concept.
   - Lab.
   - Master and Master Cluster Concept.
   - Lab.
   - Database Backup and Restore ( Large Data )
+  - MySQL Sharding using Vitess.
   - Quiz.
 ### 4- Logging and Monitoring :
   - Logs types ( Access , Transaction , Slow Queries ).
@@ -36,3 +40,4 @@
   - Part -3 ( Configurations Options )
 ### 7- Interview Questions and Answers :
   - A PDF contains all Most common Questions and Answers.
+  - MySQL vs MariaDB.
