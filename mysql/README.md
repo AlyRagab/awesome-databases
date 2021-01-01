@@ -1,4 +1,4 @@
-## MySQL Course Contents:
+## MySQL Contents:
  ### 1- Basic Administration :
   - Introduction.
   - Setup , Creating a Database and Users , how to deal with Permissions ?.
