@@ -1,4 +1,4 @@
-## PostgreSQL Course Contents:
+## PostgreSQL Contents:
  ### 1- Basic Administration :
   - Setup , Creating a Database and Users , how to deal with Permissions ?.
   - Postgres Server Architecture.
