@@ -1,8 +1,7 @@
 # Awesome Databases
-Databases for DevOps Engineers
 
 ### There are 4 Pillars : 
-`MySQL` , `PostgreSQL` , `MongoDB` and `CassanrdaDB` All should have the following elements :
+`MySQL` , `PostgreSQL` , `MongoDB` and `CassanrdaDB` with the below elements :
 #### 1- Basic Administration.
 #### 2- Database Design and CRUD.
 #### 3- Cluster Management.
