@@ -1,4 +1,4 @@
-# databases-for-devops
+# Awesome Databases
 Databases for DevOps Engineers
 
 ### There are 4 Pillars : 
