@@ -1,4 +1,4 @@
-## MongoDB Course Contents :
+## MongoDB Contents :
 ### 1- Basic Administration :
   - Setup , Creating a Database and Users , how to deal with Permissions ?.
   - MongoDB Structure and Architecture ( Mongos and Mongod )
